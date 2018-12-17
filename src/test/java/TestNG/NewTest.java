@@ -21,7 +21,7 @@ public class NewTest {
 	  @BeforeTest
 	  public void beforeTest() {
 		  String absolutePath=System.getProperty("user.dir");
-		  String filePath=absolutePath+"\\chromedriver.exe";
+		  String filePath=absolutePath+"//chromedriver.exe";
 		  System.setProperty("webdriver.chrome.driver", filePath);
 			//System.setProperty("webdriver.chrome.driver",
 			//		"C:\\WorkSpace\\eclipse-workspace\\Flight_Reservation\\chromedriver.exe");
