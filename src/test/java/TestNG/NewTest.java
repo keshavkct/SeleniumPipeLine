@@ -21,7 +21,7 @@ public class NewTest {
 	  @BeforeTest
 	  public void beforeTest() {
 		  String absolutePath=System.getProperty("user.dir");
-		  String filePath=absolutePath+"//chromedriver.exe";
+		  String filePath=absolutePath+"//chmod 777 google-chrome-stable_current_amd64.deb";
 		  System.setProperty("webdriver.chrome.driver", filePath);
 			//System.setProperty("webdriver.chrome.driver",
 			//		"C:\\WorkSpace\\eclipse-workspace\\Flight_Reservation\\chromedriver.exe");
