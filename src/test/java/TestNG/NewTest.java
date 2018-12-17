@@ -12,11 +12,11 @@ public class NewTest {
 	  @Test
 	  public void f() {
 			wdriver.manage().window().maximize();
-			wdriver.get("http://newtours.demoaut.com");
-			wdriver.findElement(By.linkText("SIGN-ON"));
-			wdriver.findElement(By.name("userName")).sendKeys("testing");
-			wdriver.findElement(By.name("password")).sendKeys("testing");
-			wdriver.findElement(By.name("login")).click();;
+			wdriver.get("http://ec2-13-233-102-85.ap-south-1.compute.amazonaws.com:3002/");
+			
+			wdriver.findElement(By.name("login")).sendKeys("devops");
+			wdriver.findElement(By.name("password")).sendKeys("test");
+			wdriver.findElement(By.name("click")).click();;
 	  }
 	  @BeforeTest
 	  public void beforeTest() {
